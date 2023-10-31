@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Age Calculator</title>
+    <!-- -----------------------------------------CDN FOR TAILWINDCSS------------------------- -->
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-[#faebd7] flex justify-center items-center h-screen">
+
+    <div class="w-[460px] h-[290px] rounded-xl" style="box-shadow: 10px 10px 45px 0px black;">
+
+        <p class="text-4xl font-bold ml-8 mt-5">Age Calculator (thakur)</p>
+        <p class="text-2xl font-semibold mt-3 ml-[5rem]">Select your Date of Birth</p>
+
+        <!-- --------------------user input date field------------------------ -->
+        <input id="enter_age" class="w-[210px] h-[43px] mt-3 ml-28 rounded-lg text-2xl font-semibold pl-3 shadow-inner" type="date">
+        <p>
+            <button id="calculate" class="border-[1px] border-black bg-black text-white  rounded-lg w-[190px] h-[35px] text-xl font-semibold mt-4 ml-[122px] shadow-xl hover:bg-blue-400" style="box-shadow: 2.2px 2.3px gray;">Calculate Age</button>
+        </p>
+
+        <p class="text-2xl font-semibold  mt-7 ml-36">Your Age is <span id="your_age"> </span></p>
+
+    </div>
+</body>
+<script src="logic.js"></script>
+
+</html>
